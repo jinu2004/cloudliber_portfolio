@@ -1,0 +1,14 @@
+site:
+  title: "CloudLiber"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/kotlin-webpack/js/developmentExecutable/cl_porfolio.js"
+      api: "build/libs/cl_porfolio.jar"
+    prod:
+      script: "build/kotlin-webpack/js/productionExecutable/cl_porfolio.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
