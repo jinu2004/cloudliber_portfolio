@@ -1,18 +1,29 @@
 package org.cloudliber.cl_porfolio.pages
 
-import androidx.compose.runtime.*
-import com.varabyte.kobweb.compose.foundation.layout.Box
+import androidx.compose.runtime.Composable
+import org.cloudliber.cl_porfolio.components.layouts.DefaultPageLayout
+import org.cloudliber.cl_porfolio.components.sections.about.AboutSection
+import org.cloudliber.cl_porfolio.components.sections.contact.ContactSection
+import org.cloudliber.cl_porfolio.components.sections.start.StartSection
+import org.cloudliber.cl_porfolio.components.sections.works.WorksSection
+import com.varabyte.kobweb.compose.foundation.layout.Column
 import com.varabyte.kobweb.compose.ui.Alignment
 import com.varabyte.kobweb.compose.ui.Modifier
 import com.varabyte.kobweb.compose.ui.modifiers.fillMaxSize
 import com.varabyte.kobweb.core.Page
-import org.jetbrains.compose.web.dom.Text
 
 @Page
 @Composable
 fun HomePage() {
-    // TODO: Replace the following with your own content
-    Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-        Text("THIS PAGE INTENTIONALLY LEFT BLANK")
+    DefaultPageLayout(title = "Home") {
+        Column(
+            modifier = Modifier.fillMaxSize(),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            StartSection()
+            WorksSection()
+            AboutSection()
+            ContactSection()
+        }
     }
 }
