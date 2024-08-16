@@ -18,7 +18,7 @@ enum class Social(
         iconResDark = Res.Images.GITHUB_DARK
     ),
     Instagram(
-        link = Res.Strings.GITHUB_LINK,
+        link = Res.Strings.INSTAGRAM_LINK,
         iconResLight = Res.Images.INSTAGRAM_LIGHT,
         iconResDark = Res.Images.INSTAGRAM_DARK
     ),
