@@ -14,5 +14,11 @@ enum class Work(
         link = "https://github.com/jinu2004/Resturant.git",
         imageRes = Res.Images.DESIGN_2
     ),
+    NoteApp(
+        workName = "Note App",
+        description = "Compose multiplatform ( ios & android )",
+        link = "https://github.com/jinu2004/NoteApp.git",
+        imageRes = Res.Images.DESIGN_4
+    ),
 
 }

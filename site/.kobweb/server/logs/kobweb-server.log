@@ -1,9 +1,9 @@
-2024-08-16 20:51:09.494 [main] DEBUG ktor.application - Java Home: C:\Program Files\Java
-2024-08-16 20:51:09.497 [main] DEBUG ktor.application - Class Loader: jdk.internal.loader.ClassLoaders$AppClassLoader@73d16e93: [file:/C:/Users/jinuj/OneDrive/Desktop/Cloudliber/CloudLiber_portfolio/cl_portfolio/site/.kobweb/server/server.jar!/okio]
-2024-08-16 20:51:09.500 [main] INFO  ktor.application - No ktor.deployment.watch patterns match classpath entries, automatic reload is not active
-2024-08-16 20:51:09.518 [main] WARN  ktor.application - API jar specified but does not exist! Please fix conf.yaml. Invalid path: "build\libs\cl_porfolio.jar"
-2024-08-16 20:51:09.602 [main] INFO  ktor.application - Application started in 0.172 seconds.
-2024-08-16 20:51:09.851 [main] INFO  ktor.application - Responding at http://127.0.0.1:8080
-2024-08-16 20:52:03.150 [eventLoopGroupProxy-4-1] DEBUG ktor.application - Served fallback index.html file in response to "/"
-2024-08-16 20:52:07.609 [kotlinx.coroutines.DefaultExecutor] INFO  ktor.application - Kobweb server shutting down...
-2024-08-16 20:52:09.820 [kotlinx.coroutines.DefaultExecutor] INFO  ktor.application - Server finished shutting down.
+2024-08-31 10:14:15.765 [main] DEBUG ktor.application - Java Home: C:\Program Files\Java
+2024-08-31 10:14:15.768 [main] DEBUG ktor.application - Class Loader: jdk.internal.loader.ClassLoaders$AppClassLoader@73d16e93: [file:/C:/Users/jinuj/OneDrive/Desktop/Cloudliber/CloudLiber_portfolio/cl_portfolio/site/.kobweb/server/server.jar!/okio]
+2024-08-31 10:14:15.772 [main] INFO  ktor.application - No ktor.deployment.watch patterns match classpath entries, automatic reload is not active
+2024-08-31 10:14:15.802 [main] WARN  ktor.application - API jar specified but does not exist! Please fix conf.yaml. Invalid path: "build\libs\cl_porfolio.jar"
+2024-08-31 10:14:15.924 [main] INFO  ktor.application - Application started in 0.26 seconds.
+2024-08-31 10:14:16.387 [main] INFO  ktor.application - Responding at http://127.0.0.1:8080
+2024-08-31 10:16:22.867 [eventLoopGroupProxy-4-1] DEBUG ktor.application - Served fallback index.html file in response to "/"
+2024-08-31 10:16:26.735 [kotlinx.coroutines.DefaultExecutor] INFO  ktor.application - Kobweb server shutting down...
+2024-08-31 10:16:28.968 [kotlinx.coroutines.DefaultExecutor] INFO  ktor.application - Server finished shutting down.
