@@ -43,7 +43,7 @@ object Res {
 
         const val START_IMAGE = "images/Design 1.png"
         const val DESIGN_2 = "images/Design 2.png"
-        const val DESIGN_4 = "images/Design 4.png"
+        const val DESIGN_4 = "images/Design 4.jpg"
 
         const val ANDROID_STUDIO = "images/android_studio.svg"
         const val KOTLIN = "images/kotlin.svg"
