@@ -3,11 +3,9 @@
 package org.cloudliber.cl_porfolio.components.sections.nav_header.components
 
 import androidx.compose.runtime.Composable
-import org.cloudliber.cl_porfolio.theme.fonts.DisplayTextStyle
-import org.cloudliber.cl_porfolio.theme.fonts.TextStyle
-import org.cloudliber.cl_porfolio.theme.fonts.TextStylePrimaryColor
 import com.varabyte.kobweb.compose.css.TextAlign
 import com.varabyte.kobweb.compose.ui.Modifier
+import com.varabyte.kobweb.compose.ui.modifiers.borderRadius
 import com.varabyte.kobweb.compose.ui.modifiers.display
 import com.varabyte.kobweb.compose.ui.modifiers.height
 import com.varabyte.kobweb.compose.ui.modifiers.textAlign
@@ -18,12 +16,16 @@ import com.varabyte.kobweb.silk.components.style.breakpoint.Breakpoint
 import com.varabyte.kobweb.silk.components.style.toModifier
 import com.varabyte.kobweb.silk.components.text.SpanText
 import com.varabyte.kobweb.silk.theme.colors.ColorMode
+import org.cloudliber.cl_porfolio.theme.fonts.DisplayTextStyle
+import org.cloudliber.cl_porfolio.theme.fonts.TextStyle
+import org.cloudliber.cl_porfolio.theme.fonts.TextStylePrimaryColor
+import org.jetbrains.compose.web.css.CSSStyleValue
 import org.jetbrains.compose.web.css.DisplayStyle
 import org.jetbrains.compose.web.css.cssRem
 
 val AppLogoStyle by ComponentStyle {
     base {
-        Modifier.display(DisplayStyle.Flex)
+        Modifier.display(DisplayStyle.Flex).borderRadius { CSSStyleValue(100.toString()) }
     }
     Breakpoint.ZERO {
         Modifier.height(1.625.cssRem)
@@ -53,14 +55,15 @@ fun AppLogo(
 //                ColorMode.LIGHT -> Res.Images.LOGO_LIGHT
 //                ColorMode.DARK -> Res.Images.LOGO_DARK
 //            },
-//            attrs = AppLogoStyle.toAttrs(variant)
+//            attrs = AppLogoStyle.toAttrs(variant),
+//
 //        )
 
 
         SpanText(
             modifier = TextStyle.toModifier(DisplayTextStyle, TextStylePrimaryColor)
                 .textAlign(TextAlign.Start),
-            text = "CloudLiber"
+            text = "Twilight link"
         )
     }
 }

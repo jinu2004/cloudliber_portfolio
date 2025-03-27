@@ -45,7 +45,7 @@ val SkillSectionDividerStyle by ComponentStyle {
 
 @Composable
 fun SkillsSectionDivider(
-    skillsToDisplay: List<Skill> = listOf(Skill.AndroidStudio, Skill.Kotlin, Skill.Ktor, Skill.Figma),
+    skillsToDisplay: List<Skill> = listOf(Skill.AndroidStudio, Skill.Next, Skill.JetpackCompose, Skill.Node,Skill.Figma),
     modifier: Modifier = Modifier,
 ) {
     val breakpoint = rememberBreakpoint()
@@ -57,7 +57,7 @@ fun SkillsSectionDivider(
             modifier = Modifier
                 .gap(if (breakpoint >= Breakpoint.MD) 1.5.cssRem else 1.cssRem)
                 .padding(left = if (breakpoint <= Breakpoint.SM) 2.25.cssRem else 0.cssRem),
-            numColumns = numColumns(base = 2, sm = 4, md = 4)
+            numColumns = numColumns(base = 2, sm = 5, md = 5)
         ) {
             skillsToDisplay.forEach { skill ->
                 SkillItem(

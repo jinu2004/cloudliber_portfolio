@@ -44,17 +44,23 @@ enum class Skill(
         iconResLight = Res.Images.PYTHON,
         iconResDark = Res.Images.PYTHON
     ),
-    Django(
-        skillName = "Django",
+    Next(
+        skillName = "Nextjs",
         level = "Skilled",
-        iconResLight = Res.Images.DJANGO,
-        iconResDark = Res.Images.DJANGO
+        iconResLight = Res.Images.NEXTJS,
+        iconResDark = Res.Images.NEXTJS
     ),
-    Flask(
-        skillName = "Flask",
+    Node(
+        skillName = "Nodejs",
         level = "Skilled",
-        iconResLight = Res.Images.FLASK,
-        iconResDark = Res.Images.FLASK
+        iconResLight = Res.Images.NODEJS,
+        iconResDark = Res.Images.NODEJS
+    ),
+    MONGO(
+        skillName = "MongoDB",
+        level = "Skilled",
+        iconResLight = Res.Images.MONGODB,
+        iconResDark = Res.Images.MONGODB
     ),
 
     Ktor(
@@ -81,10 +87,5 @@ enum class Skill(
         iconResLight = Res.Images.FIREBASE,
         iconResDark = Res.Images.FIREBASE
     ),
-    Kobweb(
-        skillName = "Kobweb",
-        level = "Skilled",
-        iconResLight = Res.Images.KOBWEB,
-        iconResDark = Res.Images.KOBWEB
-    )
+
 }

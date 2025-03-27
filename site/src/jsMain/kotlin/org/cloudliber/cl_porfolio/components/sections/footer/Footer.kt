@@ -72,7 +72,7 @@ fun Footer() {
             SocialLinks()
         }
         Box(modifier = Modifier.flex(1), contentAlignment = Alignment.CenterEnd) {
-            PoweredByKobweb()
+//            PoweredByKobweb()
         }
     }
 
@@ -110,22 +110,22 @@ private fun Copyright() {
     )
 }
 
-@Composable
-private fun PoweredByKobweb() {
-    Row(verticalAlignment = Alignment.CenterVertically) {
-        SpanText(
-            modifier = TextStyle.toModifier(LabelLargeTextStyle, TextStyleSecondaryColor)
-                .textAlign(TextAlign.Center),
-            text = "Powered by"
-        )
-        Link(path = "https://kobweb.varabyte.com/") {
-            Image(
-                src = Res.Images.KOBWEB,
-                modifier = Modifier
-                    .display(DisplayStyle.Flex)
-                    .height(1.25.cssRem)
-                    .margin(left = 0.375.cssRem)
-            )
-        }
-    }
-}
+//@Composable
+//private fun PoweredByKobweb() {
+//    Row(verticalAlignment = Alignment.CenterVertically) {
+////        SpanText(
+////            modifier = TextStyle.toModifier(LabelLargeTextStyle, TextStyleSecondaryColor)
+////                .textAlign(TextAlign.Center),
+////            text = "Powered by"
+////        )
+////        Link(path = "https://kobweb.varabyte.com/") {
+////            Image(
+////                src = Res.Images.KOBWEB,
+////                modifier = Modifier
+////                    .display(DisplayStyle.Flex)
+////                    .height(1.25.cssRem)
+////                    .margin(left = 0.375.cssRem)
+////            )
+////        }
+//    }
+//}

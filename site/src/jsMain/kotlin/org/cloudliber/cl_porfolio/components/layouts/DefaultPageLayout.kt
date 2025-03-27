@@ -16,7 +16,7 @@ fun DefaultPageLayout(
     content: @Composable () -> Unit,
 ) {
     LaunchedEffect(title) {
-        document.title = "Cloudliber - $title"
+        document.title = "Twilight link - $title"
     }
 
     Column(

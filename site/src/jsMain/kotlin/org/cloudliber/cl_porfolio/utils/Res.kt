@@ -15,18 +15,18 @@ object Res {
 
         const val ABOUT_SECTION_TITLE = "About Us"
         const val ABOUT_SECTION_SUBTITLE =
-            "At CloudLiber, we’re dedicated to transforming your digital vision into reality. Specializing in a diverse range of services, we excel in developing Android applications using Jetpack Compose, creating versatile multiplatform desktop applications, crafting robust backend services with Python and Django, and designing engaging web pages."
+            "At Twilight Link, we’re dedicated to transforming your digital vision into reality. Specializing in a diverse range of services, we excel in developing Android applications using Jetpack Compose, creating versatile multiplatform desktop applications, crafting robust backend services with Node.js and Next.js, and designing engaging web pages."
 
         const val CONTACT_SECTION_TITLE = "Contact Ue"
 
-        const val EMAIL_ADDRESS = "jinujs53@gmail.com"
-        const val TELEGRAM_USERNAME = "@cloudliber"
+        const val EMAIL_ADDRESS = "Twilightlink2025@gmail.com"
+        const val TELEGRAM_USERNAME = "@twilight link"
 
         const val EMAIL_LINK = "mailto:$EMAIL_ADDRESS"
-        const val GITHUB_LINK = "https://github.com/jinu2004"
+        const val GITHUB_LINK = "https://github.com/orgs/Twilight-Link/dashboard"
         const val INSTAGRAM_LINK = "https://www.instagram.com/cloudliber?igsh=OTE2NzNjMzBycWNu"
 
-        const val COPYRIGHT = "© 2024, CloudLiber"
+        const val COPYRIGHT = "© 2025, Twilight link"
     }
 
     object FontFamilies {
@@ -35,8 +35,8 @@ object Res {
     }
 
     object Images {
-        const val LOGO_DARK = "images/logo_dark.svg"
-        const val LOGO_LIGHT = "images/logo_light.svg"
+        const val LOGO_DARK = "images/TWILIGHT.png"
+        const val LOGO_LIGHT = "images/TWILIGHT.png"
         const val KOBWEB = "images/kobweb.png"
         const val INSTAGRAM_LIGHT = "images/icons8-instagram-50.png"
         const val INSTAGRAM_DARK = "images/icons8-instagram-dark.png"
@@ -58,9 +58,10 @@ object Res {
         const val GITHUB_DARK = "images/github_dark.svg"
         const val MAIL_LIGHT = "images/mail_light.svg"
         const val MAIL_DARK = "images/mail_dark.svg"
+        const val MONGODB = "images/icons8-mongodb-48.png"
+        const val NEXTJS = "images/icons8-nextjs-48.png"
+        const val NODEJS = "images/icons8-nodejs-48.png"
 
-        const val DJANGO = "images/django.png"
-        const val FLASK = "images/icons8-flask-64.png"
 
 
     }
